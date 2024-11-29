@@ -6,27 +6,27 @@
     <title>Basic Form</title>
 </head>
 <body>
-    <form action="#">
+    <form action="#" method="post">
         <fieldset>
             <legend>Personal Details</legend>
 
             <section>
-                <label for="firstname">First Name:</label>
+                <label for="firstname">First Name :</label>
                 <input type="text" id="firstname" name="firstname" required>
                 <br>
                 <br>
-                <label for="middlename">Middle Name:</label>
+                <label for="middlename">Middle Name :</label>
                 <input type="text" id="middlename" name="middlename">
                 <br>
                 <br>
-                <label for="lastname">Last Name:</label>
+                <label for="lastname">Last Name :</label>
                 <input type="text" id="lastname" name="lastname" required>
                 <br>
                 <br>
             </section>
 
             <section>
-                <label for="course">Choose your course:</label>
+                <label for="course">Choose your course :</label>
                 <select id="course" name="course" required>
                     <option value="">--Select Course--</option>
                     <option value="BCA">BCA</option>
@@ -37,7 +37,7 @@
                     <option value="MTech">M.Tech</option>
                 </select>
                 <br>
-                <p>Gender:</p>
+                <p>Gender :</p>
                 <input type="radio" id="male" name="gender" value="male" required>
                 <label for="male">Male</label>
                 <br>
@@ -48,30 +48,30 @@
                 <label for="other">Other</label>
                 <br>
                 <br>
-                <label for="dob">Date and Time of Birth:</label>
+                <label for="dob">Date and Time of Birth :</label>
                 <input type="datetime-local" id="dob" name="dob" required>
                 <br>
                 <br>
-                <label for="phone">Phone Number (+91):</label>
+                <label for="phone">Phone Number (+91) :</label>
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Enter 10-digit number" maxlength="10">
                 <br>
                 <br>
             </section>
 
             <section>
-                <label for="address">Address:</label><br>
+                <label for="address">Address :</label><br>
                 <textarea id="address" name="address" rows="3" cols="30" required></textarea>
                 <br>
                 <br>
-                <label for="email">Email:</label>
+                <label for="email">Email :</label>
                 <input type="email" id="email" name="email" required>
                 <br>
                 <br>
-                <label for="password">Password:</label>
+                <label for="password">Password :</label>
                 <input type="password" id="password" name="password" required>
                 <br>
                 <br>
-                <label for="retype-password">Re-type Password:</label>
+                <label for="retype-password">Re-type Password :</label>
                 <input type="password" id="retype-password" name="retype-password" required>
                 <br>
                 <br>
@@ -83,12 +83,12 @@
                     I agree to the terms and conditions
                   </label><br><br>
                   
-                  <label for="file-upload">Choose file:</label>
+                  <label for="file-upload">Choose file :</label>
                   <input type="file" id="file-upload" name="file-upload"><br><br>
             </section>
 
             <section>
-                <label for="color">Choose a color:</label>
+                <label for="color">Choose a color :</label>
                 <input type="color" id="color" name="color"><br><br>
                 
                 <input type="reset" value="Reset">
